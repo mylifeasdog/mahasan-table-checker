@@ -1,0 +1,28 @@
+# Ignore git files and directories
+.git
+.gitignore
+
+# Ignore node modules and dependencies
+node_modules
+npm-debug.log
+
+# Ignore environment files
+*.env
+env.list
+
+# Ignore Docker Compose files
+docker-compose.yml
+
+# Ignore editor/IDE configuration
+.idea
+.vscode
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore all markdown files (README etc.)
+*.md

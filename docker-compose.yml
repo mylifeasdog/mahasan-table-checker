@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  mahasan-table-checker:
+    build: .
+    image: mahasan-table-checker
+    environment:
+      SLACK_OAUTH_TOKEN: ${SLACK_OAUTH_TOKEN}
+      SLACK_CHANNEL: ${SLACK_CHANNEL}
+      INTERVAL_MINUTES: ${INTERVAL_MINUTES}
+    volumes:
+      - ./data:/usr/src/app/data
+
