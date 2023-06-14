@@ -10,4 +10,3 @@ services:
       INTERVAL_MINUTES: ${INTERVAL_MINUTES}
     volumes:
       - ./data:/usr/src/app/data
-
